@@ -54,7 +54,7 @@ public class UserInput {
 		inputUser.setVar1(inputUser.getScanner().nextInt());
 		inputUser.setVar2(inputUser.getScanner().nextInt());
 		System.out.println("The sun of the two numbers is: " + (inputUser.getVar1() + inputUser.getVar2()));
-		System.out.println("The rest of the two numbers is: " + (inputUser.getVar1() + inputUser.getVar2()));
+		System.out.println("The rest of the two numbers is: " + (inputUser.getVar1()- inputUser.getVar2()));
 	
 	}
 }
