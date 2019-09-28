@@ -1,6 +1,8 @@
-package com.itnovit.example.basics;
+package com.itnovit.example.basics.encapsulation;
 
 import java.util.Scanner;
+
+//Encapsulation example + how to get a user inport
 
 public class UserInput {
 
@@ -10,9 +12,7 @@ public class UserInput {
 	private int rta;
 	
 	public UserInput() {
-		
 		this.input = new Scanner(System.in);
-
 	}
 
 	public Scanner getScanner() {
