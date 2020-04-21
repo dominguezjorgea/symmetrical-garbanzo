@@ -1,2 +1,3 @@
 # symmetrical-garbanzo
-Basic Java tutorial
+Encapsulation example
+Balanced String algorithm
